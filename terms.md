@@ -84,4 +84,4 @@ These Terms are governed by the laws of Germany.
 
 For questions about these Terms:
 
-Email: [contact email]
+Email: pageflow@adrianphilipp.de

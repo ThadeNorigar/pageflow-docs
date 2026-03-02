@@ -9,8 +9,8 @@ PageFlow ("the App") is an Atlassian Forge application that enables content migr
 PageFlow is developed and maintained by:
 
 Adrian Philipp
-Email: [contact email]
-Website: [website URL]
+Email: pageflow@adrianphilipp.de
+Website: https://thadenorigar.github.io/pageflow-docs/
 
 ## 2. Data We Process
 
@@ -116,4 +116,4 @@ We may update this Privacy Policy. Changes will be noted by updating the "Last u
 
 For privacy-related questions:
 
-Email: [contact email]
+Email: pageflow@adrianphilipp.de
