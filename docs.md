@@ -106,7 +106,9 @@ For OneNote import, the App requests `Notes.Read` permission via Microsoft OAuth
 
 - Ensure you are using a Microsoft 365 account (personal or organizational)
 - To switch to a different Microsoft account, click **Use a different Microsoft account** next to "Connected" in the OneNote tab. If the old account's notebooks still appear, remove the connection under [Atlassian Connected apps](https://id.atlassian.com/manage-profile/apps) ("Atlassian third party account access"), wait about five minutes, then connect again
-- Notebooks shared with you by others and Teams/SharePoint notebooks are not listed yet; only notebooks in your own OneDrive appear
+- Notebooks shared with you by colleagues appear under **Shared with me**, but only those you have recently opened in OneNote. If one is missing, open it once in OneNote, then reload PageFlow
+- A shared notebook shown in grey cannot be opened by PageFlow; the reason is shown next to it. Notebooks shared from a personal OneDrive are not supported by Microsoft for this kind of access: ask the owner for an export and use the **Local OneNote** tab
+- Teams notebooks: click **Show Teams notebooks** in the OneNote tab. Microsoft asks once for permission to list your Teams. This needs a work or school Microsoft account
 - Check that your account has OneNote notebooks
 
 ### Import seems slow
