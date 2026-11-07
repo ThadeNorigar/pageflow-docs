@@ -29,6 +29,10 @@ If you connect your Microsoft account, the App accesses:
 
 - **Notebook, Section, and Page metadata** (titles, IDs)
 - **Page content** (text, images) for conversion and import
+- **Notebooks shared with you** that you recently opened in OneNote (names and links), to list them under "Shared with me"
+- **Only if you click "Show Teams notebooks":** the names and IDs of the Microsoft Teams you are a member of, to list each team's notebooks. This uses the additional Microsoft permission `Team.ReadBasic.All`, which Microsoft asks you to approve on that click
+
+Microsoft permissions requested: `User.Read`, `Notes.Read`, `Notes.Read.All`, `offline_access`, `openid`, `profile`, and on demand `Team.ReadBasic.All`. All are read-only.
 
 OneNote data is:
 
