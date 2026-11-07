@@ -82,30 +82,35 @@ You have the right to:
 
 - **Access** — View what data the App can access
 - **Rectification** — Data is read from source systems; correct it there
-- **Erasure** — Uninstall the App to remove all stored tokens and configuration
-- **Restrict processing** — Disconnect your Microsoft account to stop OneNote access
+- **Erasure** — Uninstall the App to remove its configuration; revoke Microsoft access as described below
+- **Restrict processing** — Revoke the App's Microsoft access (see below) to stop OneNote access
 - **Data portability** — Exported content is standard Confluence pages
 - **Object** — Stop using the App at any time
 
 ### Revoking Microsoft Access
 
-1. Go to [Microsoft Account — App Permissions](https://account.live.com/consent/Manage)
-2. Find "PageFlow" and click **Remove**
-3. Or disconnect within the App's OneNote tab
+The Microsoft connection is stored by the Atlassian Forge platform for your Atlassian account, not by the App. It is not removed when the App is uninstalled. To remove it:
+
+1. In your Atlassian account, open [Connected apps](https://id.atlassian.com/manage-profile/apps) and remove PageFlow's Microsoft account access under "Atlassian third party account access"
+2. At Microsoft, revoke the consent:
+   - Personal account: [Microsoft Account — App Permissions](https://account.live.com/consent/Manage), find "PageFlow", click **Remove**
+   - Work or school account: [My Apps](https://myapps.microsoft.com), select PageFlow, choose **Manage your application** and revoke the permissions. Permissions granted by your administrator can only be revoked by the administrator.
 
 ### Uninstalling the App
 
 Uninstalling PageFlow from your Confluence instance removes:
 
-- All Forge Storage data (OAuth tokens, configuration)
+- All Forge Storage data (configuration)
 - App permissions and access
+
+The Microsoft connection is not part of Forge Storage and stays in place; see "Revoking Microsoft Access" above.
 
 Previously imported Confluence pages remain in your instance.
 
 ## 7. Data Retention
 
 - **No content is retained** by the App after processing
-- **OAuth tokens** are retained in Forge Storage until you disconnect or uninstall
+- **OAuth tokens** are held by the Atlassian Forge platform for your Atlassian account until you revoke access as described in section 6
 - **App configuration** is retained in Forge Storage until uninstall
 
 ## 8. Changes to This Policy

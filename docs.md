@@ -105,7 +105,8 @@ For OneNote import, the App requests `Notes.Read` permission via Microsoft OAuth
 ### OneNote connection fails
 
 - Ensure you are using a Microsoft 365 account (personal or organizational)
-- Try disconnecting and reconnecting your Microsoft account
+- To switch to a different Microsoft account, click **Use a different Microsoft account** next to "Connected" in the OneNote tab. If the old account's notebooks still appear, remove the connection under [Atlassian Connected apps](https://id.atlassian.com/manage-profile/apps) ("Atlassian third party account access"), wait about five minutes, then connect again
+- Notebooks shared with you by others and Teams/SharePoint notebooks are not listed yet; only notebooks in your own OneDrive appear
 - Check that your account has OneNote notebooks
 
 ### Import seems slow
